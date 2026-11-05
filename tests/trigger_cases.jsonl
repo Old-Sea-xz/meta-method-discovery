@@ -1,0 +1,36 @@
+{"id": "TRG-001", "prompt": "退休社区如何安排志愿者值班，既覆盖需求又兼顾公平？", "expected_activate": true, "rationale": "约束优化，缺求解路径"}
+{"id": "TRG-002", "prompt": "线上课程学员总是学完就忘，怎样系统改善？", "expected_activate": true, "rationale": "学习设计，需要专业依据"}
+{"id": "TRG-003", "prompt": "水库来水很不稳定，我想提前准备调度方案。", "expected_activate": true, "rationale": "不确定性决策"}
+{"id": "TRG-004", "prompt": "包装既要少用材料又要防摔，现有设计难以兼顾。", "expected_activate": true, "rationale": "工程冲突，需探索替代"}
+{"id": "TRG-005", "prompt": "产品用户流失逐渐增加，怎样找出真正原因？", "expected_activate": true, "rationale": "分析与归因"}
+{"id": "TRG-006", "prompt": "配送订单经常超时，怎样安排路线才合理？", "expected_activate": true, "rationale": "调度与路线规划"}
+{"id": "TRG-007", "prompt": "仪器测试很贵，怎么选择下一次最值得做的试验？", "expected_activate": true, "rationale": "序贯实验设计"}
+{"id": "TRG-008", "prompt": "医院候诊时长差别很大，怎么分析拥堵？", "expected_activate": true, "rationale": "运营分析"}
+{"id": "TRG-009", "prompt": "新功能有好有坏，我们不知道应先开发哪个。", "expected_activate": true, "rationale": "多目标决策"}
+{"id": "TRG-010", "prompt": "团队会议总是说不到重点，有没有组织讨论的成熟办法？", "expected_activate": true, "rationale": "信息组织"}
+{"id": "TRG-011", "prompt": "用了平均数填补缺失数据但效果差，想找更合适的办法。", "expected_activate": true, "rationale": "现有方法不足，明确需替代"}
+{"id": "TRG-012", "prompt": "想借鉴生态学处理网络服务中资源竞争，哪些能迁移？", "expected_activate": true, "rationale": "显式迁移意图"}
+{"id": "TRG-013", "prompt": "北京是哪个国家的首都？", "expected_activate": false, "rationale": "事实查询"}
+{"id": "TRG-014", "prompt": "把 hello 翻译成中文。", "expected_activate": false, "rationale": "翻译"}
+{"id": "TRG-015", "prompt": "将这段文字压缩为一句话：会议决定下周发布。", "expected_activate": false, "rationale": "摘要"}
+{"id": "TRG-016", "prompt": "润色这句话：此功能很好用。", "expected_activate": false, "rationale": "润色"}
+{"id": "TRG-017", "prompt": "计算 18 加 24。", "expected_activate": false, "rationale": "简单计算"}
+{"id": "TRG-018", "prompt": "按字母顺序排序 zebra apple dog。", "expected_activate": false, "rationale": "明确操作"}
+{"id": "TRG-019", "prompt": "用最小二乘拟合这三个点，不要探索别的方法：(1,2),(2,3),(3,5)。", "expected_activate": false, "rationale": "已指定方法"}
+{"id": "TRG-020", "prompt": "解释一下线性规划的定义。", "expected_activate": false, "rationale": "已有术语的定义查询"}
+{"id": "TRG-021", "prompt": "把标题里的“理论”改成“实践”。", "expected_activate": false, "rationale": "关键词不代表方法缺口"}
+{"id": "TRG-022", "prompt": "将以下两行转成 JSON：a=1,b=2。", "expected_activate": false, "rationale": "格式转换"}
+{"id": "TRG-023", "prompt": "按我给的权重计算加权平均：权重 0.2、0.8，值 10、20。", "expected_activate": false, "rationale": "明确求解路径"}
+{"id": "TRG-024", "prompt": "输出三个项目符号，内容分别为预测、优化、决策。", "expected_activate": false, "rationale": "领域词不代表需要发现"}
+{"id": "TRG-025", "prompt": "我有每小时需求和员工技能表，需要排出满足覆盖约束的班表，但不知道如何建模。", "expected_activate": true, "rationale": "明确目标和约束优化机制缺口", "expected_state": "METHOD_GAP"}
+{"id": "TRG-026", "prompt": "我想让团队表现更好，应该用什么方法？", "expected_activate": true, "rationale": "目标和上下文不足，先澄清关键意图", "expected_state": "POSSIBLE_METHOD_GAP"}
+{"id": "TRG-027", "prompt": "把这段中文翻译成英文：明天开会。", "expected_activate": false, "rationale": "直接翻译", "expected_state": "NO_METHOD_GAP"}
+{"id": "TRG-028", "prompt": "我的命令行工具报找不到 config.yaml，怎么检查路径？", "expected_activate": false, "rationale": "普通工具故障排查", "expected_state": "NO_METHOD_GAP"}
+{"id": "TRG-029", "prompt": "帮我改善模型效果。", "expected_activate": true, "rationale": "任务类型、指标和限制未知，先澄清", "expected_state": "POSSIBLE_METHOD_GAP"}
+{"id": "TRG-030", "prompt": "用我指定的逻辑回归模型拟合这份小表格。", "expected_activate": false, "rationale": "用户已指定方法并要求执行", "expected_state": "NO_METHOD_GAP"}
+{"id": "TRG-031", "prompt": "现有移动平均预测持续滞后，我需要找适合季节性需求的替代方案。", "expected_activate": true, "rationale": "现有方法失效，明确方法缺口", "expected_state": "METHOD_GAP"}
+{"id": "TRG-032", "prompt": "请解释什么是交叉验证。", "expected_activate": false, "rationale": "术语定义查询", "expected_state": "NO_METHOD_GAP"}
+{"id": "TRG-033", "prompt": "我想判断这个方案是否划算，但还没说方案和成本。", "expected_activate": true, "rationale": "可能需决策方法，决定性输入缺失", "expected_state": "POSSIBLE_METHOD_GAP"}
+{"id": "TRG-034", "prompt": "请把我的已保存经验列出来，不要分析方法。", "expected_activate": false, "rationale": "纯记忆管理", "expected_state": "NO_METHOD_GAP"}
+{"id": "TRG-035", "prompt": "我指定用Excel数据透视表汇总各地区销售额，给我操作步骤。", "expected_activate": false, "rationale": "指定工具的直接操作指引", "expected_state": "NO_METHOD_GAP"}
+{"id": "TRG-036", "prompt": "两种包装方案都满足防护要求，我需要系统比较材料用量与成本。", "expected_activate": true, "rationale": "多目标取舍需要比较方法", "expected_state": "METHOD_GAP"}
